@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  .home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .homeContainer {
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .homeLogo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .homeForm {
+    position: relative;
+  }
+
+  .searchIcon {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 20px;
+    color: #9aa0a6;
+  }
+
+  .microphone {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    font-size: 20px;
+    color: #4285f4;
+  }
+
+  .homeInput {
+    width: 100%;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid #83bde4;
+    outline: none;
+    font-size: 18px;
+    padding: 0 45px;  
+    font-weight: normal;
+  }
+
+  .homeInput:hover{
+    box-shadow: 3px 3px 10px rgb(153, 222, 243) ;
+  }
+  
+  .homeGroup {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .homeBtn {
+    outline: none;
+    color: #5f6368;
+    background: #f2f2f2;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .homeBtn:hover{
+    color: #353535;
+    background: #d2f5fa;
+  }
+
+  .search {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .searchForm {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+  }
+
+  .searchForm-logo {
+    width: 92px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .searchForm-logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .searchForm-input {
+    width: 600px;
+    margin-left: 15px;
+  }
+
+  .show {
+    margin: 20px 0;
+    width: 700px;
+  }
+
+  .showInfo {
+    color: silver;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .showDetails {
+    margin-top: 25px;
+  }
+
+  .showLink {
+    margin-bottom: 5px;
+  }
+
+  .showLink a {
+    color: #3c4043;
+    text-decoration: none;
+  }
+
+  .showTitle {
+    margin-bottom: 10px;
+  }
+
+  .showTitle a {
+    font-size: 20px;
+    color: #1a0dab;
+    text-decoration: none;
+  }
+
+  .showDescription {
+    color: #3c4043;
+    font-size: 14px;
+  }
+  
